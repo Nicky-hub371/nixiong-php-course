@@ -18,3 +18,8 @@ h1,h2,h3{
     border-color: blueviolet;
 }
 
+.main-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
