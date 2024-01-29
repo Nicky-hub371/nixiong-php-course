@@ -1,5 +1,7 @@
-<?php include'header.php'; ?>
-
+<?php 
+$title ="Web Programming- task1";
+include'header.php'; 
+?>
 <main class="main-section">
 
 <h3>3.1 Write PHP code to output the following message: </h3>
@@ -49,7 +51,7 @@ echo"<h4>$title</h4>";
 
 <h3>3.5 Commit all the changes you've made and push them to your GitHub repository 
     to complete the task.</h3>
-    
+
 </main>
 
     <?php include'footer.php'; ?>

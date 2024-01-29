@@ -1,4 +1,7 @@
-<?php include'header.php'; ?>
+<?php 
+$title = "Web Programming - task2";
+include'header.php'; 
+?>
 <main class="main-section">
 
     <h3>Hello world this is a new page</h3>
