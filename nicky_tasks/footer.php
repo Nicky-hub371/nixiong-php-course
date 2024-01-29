@@ -1,9 +1,4 @@
-</div>
-            <div class="col-md-5">
-                <img class="img-fluid" src="Images/ladyAndPlant.png">
-            </div>
-
-        </div>
+   </div>
           <footer class="row">
             
             <div class="col-md-4">&copy; Ni Xiong</div>

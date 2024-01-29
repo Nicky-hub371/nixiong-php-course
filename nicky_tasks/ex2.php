@@ -4,10 +4,17 @@ include'header.php';
 ?>
 <main class="main-section">
 
-    <h3>Hello world this is a new page</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo fuga provident reiciendis 
-    eveniet in sapiente numquam dolores ad doloribus ducimus, iusto consequatur nemo dolore dolorum 
-    nihil cupiditate, deleniti quibusdam voluptate!</p>
+<div>
+
+<h1>Bootstrap Example</h1>
+<p>Hosting That Helps You Grow</p>
+<p>Elevate your online presence with a hosting partner that has your back 
+- with superb security, ultrafast speed and 24/7 friendly support.</p>
+<p>Our platform is built on the premium Google cloud infrastructure for top reliability, 
+security and speed. We take advantage of their fast network and SSD persistent storage for 
+optimal site speed and a high-level of redundancy.</p>
+<a href="#" class="btn btn-primary">Contact us</a>
+</div>
 
 </main>
 <?php include'footer.php'; ?>
