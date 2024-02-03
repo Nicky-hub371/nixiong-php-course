@@ -31,7 +31,7 @@ include'header.php';
 
     <!--process the data at the same page-->
     <?php 
-        if($_SERVER["REQUEST_METHOD"]=="POST"){
+        if($_SERVER["REQUEST_METHOD"]=="POST"&& isset($_POST["age"])){
         //collect user input
         $name = $_POST["name"];
         $age = $_POST["age"];
@@ -76,7 +76,7 @@ include'header.php';
             <div class="row mb-3">
                 <div class="col">
                     <input type="number" class="form-control" placeholder="Input a number" aria-label="number" 
-                    name="number" required>
+                    name="number1" required>
                 </div>
             </div>
                 <button type="submit" class="btn btn-primary" value="Generate table">Submit</button>
@@ -84,16 +84,16 @@ include'header.php';
     </div> <!--class = row-->
 
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["number1"])) {
         // Retrieve user input
-        $number = $_POST["number"];
+        $number1 = $_POST["number1"];
 
         // Print the table
-        echo "<h4>Multiplication Table for $number</h4>";
+        echo "<h4>Multiplication Table for $number1</h4>";
         echo "<table class=\"table table-striped table-hover\">";
         for ($i = 1; $i <= 10; $i++) {
-            $result = $number * $i;
-            echo "<tr><td>$number x $i</td><td>=</td><td>$result</td></tr>";
+            $result = $number1 * $i;
+            echo "<tr><td>$number1 x $i</td><td>=</td><td>$result</td></tr>";
         }
         echo "</table>";
     }
@@ -103,11 +103,11 @@ include'header.php';
     use form to get user input</h3>
     <div class="row">
         <h4>Please input a number</h4>
-        <form method="post" name="user_input_number1" action=<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>>
+        <form method="post" name="user_input_number2" action=<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>>
             <div class="row mb-3">
                 <div class="col">
                     <input type="number" class="form-control" placeholder="Input a number" aria-label="number" 
-                    name="number" required>
+                    name="number2" required>
                 </div>
             </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
@@ -115,15 +115,15 @@ include'header.php';
     </div> <!--class = row-->
 
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["number2"])) {
         // Retrieve user input
-        $number = $_POST["number"];
+        $number2 = $_POST["number2"];
 
         // Print numbers using a while loop
-        echo "<h4>Numbers from 1 to $number:</h4>";
+        echo "<h4>Numbers from 1 to $number2:</h4>";
         echo "<ul>";
         $j = 1;
-        while ($j <= $number) {
+        while ($j <= $number2) {
             echo "<li>$j</li>";
             $j++;
         }
