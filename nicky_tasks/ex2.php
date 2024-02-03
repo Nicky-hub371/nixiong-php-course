@@ -2,7 +2,6 @@
 $title = "Web Programming - task2";
 include'header.php'; 
 ?>
-<main class="main-section">
 
 <div>
 
@@ -16,5 +15,4 @@ optimal site speed and a high-level of redundancy.</p>
 <a href="#" class="btn btn-primary">Contact us</a>
 </div>
 
-</main>
 <?php include'footer.php'; ?>

@@ -29,10 +29,10 @@
                 <a class="nav-link" href="ex2.php">Task2</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Task3</a>
+                <a class="nav-link" href="ex3.php">Task3</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Task4</a>
+                <a class="nav-link" href="ex4.php">Task4</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,4 +49,5 @@
         </div>
       </nav>
         <div class="row">
+        <main class="main-section">
         
