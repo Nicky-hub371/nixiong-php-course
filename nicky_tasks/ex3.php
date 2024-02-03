@@ -10,6 +10,7 @@ include'header.php';
     Make sure to include the Bootstrap CSS link in your head tag.</h3>
 
 <div class="row">
+    <h4>Please input your firstname and lastname: </h4>
     <form method="post" name="user_reg_form" action=<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>>
     <div class="row mb-3">
         <div class="col">
@@ -75,7 +76,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     echo "$text<br>";
 
     // print the length of the string
-    echo "Lenth of the string: ".strlen($text);
+    echo $text."'s length of the string is ".strlen($text);
 ?>
 
 <h3>3.6 Number Addition: Write a script to add up the numbers: 298, 234, 46. 
@@ -87,9 +88,7 @@ $second_number = 234;
 $third_number = 46;
 $sum_total = $first_number + $second_number + $third_number;
 
-$direct_text = "Total = ";
-
-echo $direct_text . $sum_total;
+echo $first_number." + ".$second_number. " + ".$third_number. " = ".$sum_total;
 ?>
 
 <h3>3.7 Browser Detection: Write a PHP script to detect the browser being used to view your pages. 
