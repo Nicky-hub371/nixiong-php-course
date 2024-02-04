@@ -131,7 +131,7 @@ include'header.php';
     }
     ?>
 
-<h3>3.6 Foreach Loop: Write a PHP script that will print all the elements of an array.
+<h3>4.6 Foreach Loop: Write a PHP script that will print all the elements of an array.
     $myarray=("HTML", "CSS", "PHP", "JavaScript").</h3>
 
     <?php
