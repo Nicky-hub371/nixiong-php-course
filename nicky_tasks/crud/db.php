@@ -1,8 +1,8 @@
 <?php
-$servername = "web-dev-env-main-db-1";
-$username = "app1";
-$password = "password";
-$dbname = "app1";
+$servername = "localhost";
+$username = "ni23000";
+$password = "2TbIgJyZ";
+$dbname = "wp_ni23000";
 
 
 // create databse connection
