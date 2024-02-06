@@ -1,3 +1,8 @@
+<?php 
+$title ="Web Programming- task1";
+include'header.php'; 
+?>
+
 <?php
 $servername = "localhost";
 $username = "ni23000";
@@ -14,3 +19,5 @@ if ($conn -> connect_error){
 }
 
 ?>
+
+<?php include'footer.php'; ?>

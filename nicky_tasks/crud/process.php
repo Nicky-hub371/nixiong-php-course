@@ -1,3 +1,8 @@
+<?php 
+$title ="Web Programming- task1";
+include'header.php'; 
+?>
+
 <?php
 // what to do with the data
 if(isset($_POST['submit'])){
@@ -25,3 +30,5 @@ $conn -> close();
 }
 
 ?>
+
+<?php include'footer.php'; ?>
