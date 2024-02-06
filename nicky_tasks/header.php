@@ -34,15 +34,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="ex4.php">Task4</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Task5</a></li>
-                  <li><a class="dropdown-item" href="#">Task6</a></li>
-                  <li><a class="dropdown-item" href="#">Task7</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Task5</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Task7</a>
               </li>
             </ul>
           </div>
