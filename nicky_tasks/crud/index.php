@@ -1,6 +1,6 @@
 <?php 
-$title ="Web Programming- task1";
-include'header.php'; 
+$title ="Web Programming- task7";
+include'../header.php'; 
 ?>
 
 <h2>Input Your Information Below:</h2>
@@ -38,4 +38,4 @@ include'header.php';
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
 
-<?php include'footer.php'; ?>
+<?php include'../footer.php'; ?>
