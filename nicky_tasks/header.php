@@ -38,7 +38,7 @@
                 <a class="nav-link" href="#">Task5</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Task7</a>
+                <a class="nav-link" href="index.php">Task7</a>
               </li>
             </ul>
           </div>

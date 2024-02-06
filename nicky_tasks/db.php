@@ -1,6 +1,6 @@
 <?php 
 $title ="Web Programming- task7";
-include'../header.php'; 
+include'header.php'; 
 ?>
 
 <?php
@@ -20,4 +20,4 @@ if ($conn -> connect_error){
 
 ?>
 
-<?php include'../footer.php'; ?>
+<?php include'footer.php'; ?>
