@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
     $city = $_POST['city'];
     $groupid = $_POST['groupid'];
 
-    //connect to the databse server
+    //connect to the database server
     include 'db.php';
 
     // write sql statement to insert data

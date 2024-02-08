@@ -1,13 +1,16 @@
-<?php 
-$title ="Web Programming- task7";
-include'header.php'; 
-?>
+
 
 <?php
-$servername = "localhost";
-$username = "ni23000";
-$password = "2TbIgJyZ";
-$dbname = "wp_ni23000";
+$servername = "web-dev-env-main-db-1";
+$username = "app1";
+$password = "password";
+$dbname = "app1";
+
+
+//$servername = "localhost";
+//$username = "ni23000";
+//$password = "2TbIgJyZ";
+//$dbname = "wp_ni23000";
 
 
 // create databse connection
@@ -19,5 +22,3 @@ if ($conn -> connect_error){
 }
 
 ?>
-
-<?php include'footer.php'; ?>

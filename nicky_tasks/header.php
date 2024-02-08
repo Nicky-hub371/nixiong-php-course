@@ -13,14 +13,14 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="ex2.php">Ni Xiong</a>
+          <a class="navbar-brand" href="index.php">Ni Xiong</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="ex2.php">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="ex1.php">Task1</a>
@@ -35,10 +35,10 @@
                 <a class="nav-link" href="ex4.php">Task4</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Task5</a>
+                <a class="nav-link" href="index.php">Task7</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.php">Task7</a>
+                <a class="nav-link" href="read.php">Read Data</a>
               </li>
             </ul>
           </div>
