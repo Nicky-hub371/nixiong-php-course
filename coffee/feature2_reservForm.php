@@ -11,11 +11,13 @@ include 'header.php'; ?>
             <div class="row">
                 <div class="col">
                     <label for="name">Your Full Name:</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your full name" name="name" required>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name" 
+                    name="name" required minlength="3" maxlength="30">
                 </div>
                 <div class="col">
                     <label for="email">Your Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" required>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" 
+                    name="email" required>
                 </div>
             </div>
         </div>
@@ -23,11 +25,13 @@ include 'header.php'; ?>
             <div class="row">
                 <div class="col">
                     <label for="numOfPeople">Number of People:</label>
-                    <input type="number" class="form-control" id="numOfPeople" placeholder="Enter number of people" name="numOfPeople" required>
+                    <input type="number" class="form-control" id="numOfPeople" placeholder="Enter number of people" 
+                    name="numOfPeople" required min="1" max="100">
                 </div>
                 <div class="col">
                     <label for="date">Your Date:</label>
-                    <input type="date" class="form-control" id="date" name="date" required>
+                    <input type="date" class="form-control" id="date" name="date" 
+                    required>
                 </div>
             </div>
         </div>
@@ -36,7 +40,7 @@ include 'header.php'; ?>
                 <div class="col">
                     <label for="specialReq">Your Special Requests:</label>
                     <textarea type="text" class="form-control" id="specialReq" placeholder="Enter your special requests" 
-                    name="specialReq" style="height: 100px"></textarea>
+                    name="specialReq" style="height: 100px" minlength="2" maxlength="200"></textarea>
                 </div>
             </div>
         </div>
