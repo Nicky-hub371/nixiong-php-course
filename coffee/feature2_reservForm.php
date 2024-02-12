@@ -36,7 +36,7 @@ include 'header.php'; ?>
                 <div class="col">
                     <label for="specialReq">Your Special Requests:</label>
                     <textarea type="text" class="form-control" id="specialReq" placeholder="Enter your special requests" 
-                    name="specialReq" style="height: 100px" required></textarea>
+                    name="specialReq" style="height: 100px"></textarea>
                 </div>
             </div>
         </div>

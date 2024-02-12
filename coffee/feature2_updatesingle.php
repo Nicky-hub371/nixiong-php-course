@@ -1,5 +1,5 @@
 <?php
-$title = "Feature 2-Read Data";
+$title = "Feature 2-update date";
 $css = 'styles_XiongNi.css';
 include'header.php'; 
 include 'feature2_db.php';
@@ -44,7 +44,7 @@ $row= mysqli_fetch_array($result);
                 <div class="col">
                     <label for="specialReq">Your Special Requests:</label>
                     <textarea type="text" class="form-control" id="specialReq" placeholder="Enter your special requests" 
-                    name="specialReq" style="height: 100px" required value="<?php echo $row['specialReq']; ?>"></textarea>
+                    name="specialReq" style="height: 100px" value="<?php echo $row['specialReq']; ?>"></textarea>
                 </div>
             </div>
         </div>
