@@ -12,7 +12,7 @@ $css="styles_YangPengpeng.css";
 include 'header.php'; ?>
 
         <div class="word">
-            <form method = "post" action = "feature1_process1.php" class="loginform">
+            <form method = "post" action = "feature1_process1gai.php" class="loginform">
                 <h2 class="logintitle">Existing Customers</h2>
                 <label class="loginlable" for="email">Email:</label>
                 

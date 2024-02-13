@@ -11,14 +11,14 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3743480f3c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles_JiaweiLi.css">
+    <link rel="stylesheet" href="../styles_JiaweiLi.css">
 </head>
 
 
 <body>
     <header class="part1">
         <header class="head">
-            <a href="index.html"><img src="images/2-e1694169123116.png" /></a>
+            <a href="../htmlFile/index.html"><img src="../images/2-e1694169123116.png" /></a>
         </header>
         <nav class="nav">
             <a href="index.html" class="link">Home</a>
@@ -85,8 +85,10 @@
 
 
 
-<form name="contactUs" method="post" action="processCon.php">
+
             <div class="col-sm-6">
+                <form name="contactUs" method="post">
+
                 <p style="text-align: center;font-size: 28px; font-weight: bold;">Send Message</p><br>
                 <div class="row">
                     <div class="col-md-6">
@@ -98,8 +100,10 @@
                     </div>
 
                     <div class="col-md-6">
-                        <input type="text" class="form-control" placeholder="Add email" aria-label="First name" id="email" name="email">
+                        <input type="text" class="form-control" placeholder="Add email" aria-label="First name" id="email" name="email" onblur="validateEmail()">
+                        <span id="emailError"></span>
                     </div>
+
                     <div class="col-md-6">
                         <input type="text" class="form-control" placeholder="How can we help you?"
                             aria-label="Last name" id="howtohelp" name="howtohelp"><br>
@@ -109,11 +113,12 @@
                         <textarea class="form-control" placeholder="Leave a comment here" id="comment" name="comment" style="height: 180px"></textarea><br>
                     </div>
                     <div>
-                        <button class="buttonSM" type="submit" name="submit">Send Message</button>
+                        <button class="buttonSM" type="submit" name="submit" onclick="submitForm(this)">Send Message</button>
                     </div>
                 </div>
+                </form>
             </div>
-</form>
+
 
         </div>
     </div>
@@ -163,7 +168,34 @@
         </div>
         <div></div>
     </footer>
-    </div>
-</body>
 
+
+    <script>
+function validateEmail(){
+    const pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    let email = document.getElementById("email").value;
+
+
+    if(pattern.test(email)){
+        document.getElementById("emailError").innerHTML = "Correct address!";
+        return true;
+    }
+   else{
+        document.getElementById("emailError").innerHTML = "Wrong address, please input again.";
+        return false;
+    }
+}
+
+function submitForm(submitButton){
+    if(validateEmail()){
+        submitButton.form.action = "../processCon.php";
+    }
+    else{
+        alert("Wrong address, please input again.")
+    }
+}
+
+    </script>
+
+</body>
 </html>

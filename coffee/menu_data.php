@@ -12,8 +12,7 @@ $sql = "SELECT * FROM menu";
 // Execute the SQL query and store the result
 $result = $conn->query($sql);
 echo ' <div class="col">
-          <button type="button" class="btn btn-primary"><a href="menu_add.php" style = "color: white;"> add more menu</a></button>
-          <button type="button" class="btn btn-primary"><a href="menu.php" style = "color: white;"> go to the menu website</a></button>
+          <button type="button" class="btn btn-primary"><a href="menu_add.php" style = "color: white;"> Add A Dish</a></button>
        </div>';
 // Check if there are any results
 if ($result->num_rows > 0) {

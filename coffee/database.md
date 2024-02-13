@@ -42,5 +42,19 @@ CREATE TABLE `register_info` (
   `phone` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+```
 
+# table 4: JiaweiLi
 
+```sql
+
+CREATE TABLE `contactUs` (
+  `contact_id` int NOT NULL,
+  `first_name` varchar(30) NOT NULL,
+  `last_name` varchar(30) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `howtohelp` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `comment` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci; 
+
+```

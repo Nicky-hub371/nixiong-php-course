@@ -2,10 +2,12 @@
 
 <?php
 
-$servername = "php_24-db-1";
+/*
+ $servername = "php_24-db-1";
 $username = "crudAPP";
 $password = "password";
 $dbname = "crudAPP";
+*/
 
 /*
 $servername = "php24-team-project-db-1";
@@ -20,6 +22,12 @@ $username = "pengpeng23000";
 $password = "rTaPFrQ6";
 $dbname = "wp_pengpeng23000";
 */
+
+$servername = "web-dev-env-main-db-1";
+$username = "app1";
+$password = "password";
+$dbname = "app1";
+
 
 //
 $conn = new mysqli($servername,$username,$password,$dbname);

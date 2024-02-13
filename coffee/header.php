@@ -20,13 +20,13 @@
 <body>
     <header class="part1">
         <div class="head">
-            <a href="HomePage.php"><img src="images/2-e1694169123116.png" /></a>
+            <a href="index.php"><img src="images/2-e1694169123116.png" /></a>
         </div>
         <nav class="nav">
-            <a href="HomePage.php" class="link">Home</a>
+            <a href="index.php" class="link">Home</a>
             <a href="menu.php" class="link">Menu</a>
             <a href="aboutus.php" class="link">About Us</a>
-            <a href="contactUs_JiaweiLi.html" class="link">Contact</a>
+            <a href="contactUs.php" class="link">Contact</a>
         </nav>
         <button class="button"><a href="feature1_loginPage.php" class="link">Log In</a></button>
     </header>

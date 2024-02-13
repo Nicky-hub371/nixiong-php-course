@@ -13,7 +13,7 @@ if (isset($_POST['submit'])){
 }
 
 
-$sql = "insert into studentsinfo (first_name,last_name,email,howtohelp,comment) 
+$sql = "insert into contactUs (first_name,last_name,email,howtohelp,comment) 
         values ('$first_name','$last_name','email','$howtohelp','$comment')";
 
 if ($conn-> query($sql)===TRUE){
@@ -27,4 +27,3 @@ else{
 $conn -> close();
 ?>
 
-?>

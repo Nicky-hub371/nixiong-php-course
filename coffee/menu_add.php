@@ -3,12 +3,12 @@ $title = "menu";
 $css = "styles-QiaoqiaoZou.css";
 include_once 'header.php';?>
 
-<<div class = container><br><br><br>
+<div class = container><br><br><br>
     <h2>Add A New Dish</h2><br><br>
     <form  name="form1" method="post" action="menu_process.php" enctype="multipart/form-data">
         <div class="col-md-4">
             <label for="name" class="form-label">Name Of Dish</label>
-            <input type="text" class="form-control" id="name_menu" name = "name_menu" placeholder="name of the dish" required>
+            <input type="text" class="form-control" id="name_menu" name = "name_menu" placeholder="name of the dish"  minlength="3" maxlength="30" required>
         </div><br>
         <div class="col-md-4">
             <label for="price" class="form-label">Price</label>
