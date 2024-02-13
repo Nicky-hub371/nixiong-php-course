@@ -51,7 +51,7 @@ include 'header.php'; ?>
                 </div>
             </div>
         </div>
-                    <button type="submit" class="btn btn-primary" name="reservationSubmit">Submit</button>
+                    <button type="submit" class="btn btn-dark" name="reservationSubmit">Submit</button>
         </form>
 
         <script>
