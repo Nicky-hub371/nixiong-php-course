@@ -21,7 +21,7 @@ include 'header.php'; ?>
                     quick bite or a leisurely meal.
                     Whether you're looking for a place to work, catch up with friends, or simply relax, Brew's Coffee is
                     the perfect spot to do so.</p>
-                    <a href="feature2_reservForm.php" class="btn btn-primary">Make a reservation</a>
+                    <a href="feature2_reservForm.php" class="btn btn-dark" name="resbutton"><b>Make a reservation</b></a>
             </div><!--columun of right-->
         </div> <!--class row-->
     </div><!--container-->
