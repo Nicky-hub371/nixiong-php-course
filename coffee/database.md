@@ -1,6 +1,6 @@
 # table 1: Xiong Ni
 
-'''sql
+```sql
 
 CREATE TABLE `feature2_reservform` (
   `id` int NOT NULL,
@@ -11,9 +11,36 @@ CREATE TABLE `feature2_reservform` (
   `specialReq` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-'''
+```
 
 
-# table 2: you name
+# table 4: Qiaoqiao Zou
+
+```sql
+
+CREATE TABLE `menu` (
+  `id` int NOT NULL,
+  `picture` varchar(100) NOT NULL,
+  `name_menu` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `price` decimal(10,0) NOT NULL,
+  `type_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+```
+
+# table 3: Yangpengpeng 
+
+# register
+
+```sql
+
+CREATE TABLE `register_info` (
+  `id` int NOT NULL,
+  `fullname` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `phone` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
 
 

@@ -28,6 +28,7 @@ if (isset($_POST['register'])) {
         exit();
     }
     
+    
     // database
     include 'db.php'; 
 

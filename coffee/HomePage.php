@@ -1,4 +1,13 @@
 <?php
+session_start();
+if(isset($_SESSION['user_id'])) {
+    header("Location: HomePage.php");
+    exit();
+}
+?>
+
+
+<?php
 $title = "Home Page";
 $md="Please use appropriate meta Description";
 $css="styles_YangPengpeng.css";
