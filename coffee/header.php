@@ -25,7 +25,7 @@
         <nav class="nav">
             <a href="HomePage.php" class="link">Home</a>
             <a href="menu.php" class="link">Menu</a>
-            <a href="about_XiongNi.html" class="link">About Us</a>
+            <a href="aboutus.php" class="link">About Us</a>
             <a href="contactUs_JiaweiLi.html" class="link">Contact</a>
         </nav>
         <button class="button"><a href="feature1_loginPage.php" class="link">Log In</a></button>
