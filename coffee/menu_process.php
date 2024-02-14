@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
             $pictureExtension = explode('.',$fileName);
             $pictureExtension = strtolower(end($pictureExtension));
             if(!in_array($pictureExtension,$validPictureExtension)){
-                echo"<script> alter('Invalid Picture Extension')</script>";
+                echo"<script> alter('The picture formate should be jpg, jpeg or png')</script>";
             } else if($fileSize > 2000000){
                 echo"<script> alter('Picture Size Is Too Large')</script>";
             } else{

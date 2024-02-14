@@ -22,7 +22,14 @@ include_once 'header.php';?>
             <a href="#dessert" class="m2">Dessert</a>
             <a href="#bread" class="m3">Bread</a>
             <a href="#others" class="m4">Others</a>
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="add" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnCheck1"><a href="menu_add.php" class = "">Add A Dish</a></label>
+                <input type="checkbox" class="btn-check" id="list" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnCheck2"><a href="menu_data.php" class = "">Menu List</a></label>
+           </div>
         </div>
+ 
 
     <p class="c-t" id = "coffee">Coffee</p>
     <?php include_once 'menu_coffee.php';?>

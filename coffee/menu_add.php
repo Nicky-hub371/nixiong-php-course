@@ -49,8 +49,6 @@ else{
     return true;
 }
 }
-
-
 document.getElementById("menu_name").addEventListener("input",validateName);
 </script>
 <?php include 'footer.php';?>
