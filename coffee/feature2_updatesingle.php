@@ -8,6 +8,7 @@ $result = mysqli_query($conn,"SELECT * FROM feature2_reservform WHERE id= '$a'")
 $row= mysqli_fetch_array($result);
 ?>
 
+<div class="container mt-4">
 <h2> Update your information below: </h2>
 
 <form name="reservation" method="post" action="">
@@ -49,11 +50,21 @@ $row= mysqli_fetch_array($result);
             </div>
         </div>
 
-    <div class="row">
-        <div class="col"><button type="submit" class="btn btn-primary" name="updatesubmit">Update your Information</button></div>
-        <div class="col"><button type="submit" class="btn btn-primary" name="delete">Delete your Information</button></div>
-    </div>
+        <div class="row mt-3">
+            <div class="col">
+                <button type="submit" class="btn btn-dark" name="updatesubmit">Update your Information</button>
+            </div>
+            <div class="col">
+                <button type="submit" class="btn btn-dark" name="delete">Delete your Information</button>
+            </div>
+        </div>
+        <div class="row mb-3">
+
+        <div class="col">
+        </div>
+        </div>
 </form>
+</div>
 <?php 
 /* 
 The isset() function is used to check if a variable is set and not NULL.

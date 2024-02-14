@@ -226,26 +226,26 @@ footer{
     margin-bottom: 20px; /* Adjust the margin as needed */
   }
 
-  /* Set the button color and text color*/
+  /* Set the button color and text color
   a[name="resbutton"].btn-dark {
     background-color: #E8CCB0; 
     color: #003e40; 
-}
+}*/
 
-/* Hover effect for the specific button */
+/* Hover effect for the specific button 
 a[name="resbutton"].btn-dark:hover {
-    color: #A25C2E; /* Set the text color on hover */
-}
+    color: #A25C2E; Set the text color on hover 
+}*/
 
 /* Set the sumbit button styles */
-button[name="reservationSubmit"].btn-dark {
+.btn-dark {
     background-color: #E8CCB0; /* Set your desired background color */
     color: #003e40; /* Set your desired text color */
     font-weight: bold; /* Make the text bold */
 }
 
 /* Hover effect for the submit button */
-button[name="reservationSubmit"].btn-dark:hover {
+.btn-dark:hover {
     color: #A25C2E; /* Set your desired hover text color */
 }
 
