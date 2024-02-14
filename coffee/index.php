@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(isset($_SESSION['user_id'])) {
-    header("Location: HomePage.php");
+    header("Location: index.php");
     exit();
 }
 ?>
@@ -21,9 +21,5 @@ include 'header.php'; ?>
             <button class="button2"><a href="#" class="link">Read More</a></button>
         </div>
         <div class="coffee"></div>
-
+        
 <?php include 'footer.php'; ?>
-
-<!--
-提交project之前会改成index.php
--->

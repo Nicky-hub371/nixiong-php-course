@@ -36,7 +36,7 @@ This is a list of our database tables that are part of your project(Need the ER 
 *
 ## Created Forms
 This is a list and describtions about forms that have been created as part of our project. Include details about the purpose of each form and any validation logic.
-* Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+* Form 1 (Created By YangPengpeng): Form Name register_info: Link to the related code file (https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature1_registerPage.php | Link to the form (shell.hamk.fi). | Validations Applied
 * Form 2 (Created By Xiong Ni): reservation: Link to the related code file ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature2_reservForm.php)) | Link to the form (shell.hamk.fi). | Validations Applied
 * Form 3 (Created By JiaweiLi): contactUs: Link to the related code file (https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/contactUs.php) | Link to the form (shell.hamk.fi). | Validations Applied
 * Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied

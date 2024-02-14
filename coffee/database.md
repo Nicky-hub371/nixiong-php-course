@@ -1,4 +1,4 @@
-# table 1: Xiong Ni
+# table 2: Xiong Ni
 
 ```sql
 
@@ -28,7 +28,7 @@ CREATE TABLE `menu` (
 
 ```
 
-# table 3: Yangpengpeng 
+# table 1: Yangpengpeng 
 
 # register
 
