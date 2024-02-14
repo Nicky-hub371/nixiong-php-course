@@ -52,6 +52,18 @@ include 'header.php'; ?>
             </div>
         </div>
                     <button type="submit" class="btn btn-dark" name="reservationSubmit">Submit</button>
+        
+        <div class="row mt-3">
+            <div class="col">
+            <a href="feature2_read.php" class="btn btn-dark" name="readreservations">Read Reservations</a>
+            </div>
+        </div>
+        <div class="row mb-3">
+
+            <div class="col">
+            </div>
+        </div>
+
         </form>
 
         <script>
