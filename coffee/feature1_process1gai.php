@@ -16,8 +16,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
 }
-
-$sql = "select email, password from register_info where email = '$email' AND password = '$password'";
+echo $email;
+$sql = "select email, password from register_info where email = \"$email\" AND password =\"$password\"";
 
 $result = $conn ->query($sql);
 
