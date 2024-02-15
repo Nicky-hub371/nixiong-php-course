@@ -1,35 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactUs</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/3743480f3c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles_JiaweiLi.css">
-</head>
 
 
-<body>
-    <header class="part1">
-        <div class="head">
-            <a href="index.php"><img src="images/2-e1694169123116.png" /></a>
-        </div>
-        <nav class="nav">
-            <a href="index.php" class="link">Home</a>
-            <a href="menu.php" class="link">Menu</a>
-            <a href="aboutus.php" class="link">About Us</a>
-            <a href="contactUs_JiaweiLi.html" class="link">Contact</a>
-        </nav>
-        <button class="button"><a href="feature1_loginPage.php" class="link">Log In</a></button>
-    </header>
-
-
+<?php
+$title = "Contact US";
+$md="Please use appropriate meta Description";
+$css="styles_JiaweiLi.css";
+include 'header.php'; ?>
 
 
 
@@ -124,52 +99,7 @@
 </div>
 
 
-<footer class="container-fluid d-flex align-items-start justify-content-center">
-    <div class="row" style="width: 1240px;margin-top: 20px">
-        <div class="col-md">
-            <p style="font-weight: bolder; font-size: 25px">Information</p>
-            <p>Behind the word mountains, far from the countries Vokalia and Consonantia, there</p>
-
-
-
-            <div class="row d-flex">
-                <div class="linkMethod2">
-                    <i class="fa-brands fa-facebook"
-                       style="top: 50%;left: 50%; position: absolute; transform: translate(-50%, -50%);"></i>
-                </div>
-
-                <div class="linkMethod2">
-                    <i class="fa-brands fa-square-x-twitter"
-                       style="top: 50%;left: 50%; position: absolute; transform: translate(-50%, -50%);"></i>
-                </div>
-
-
-                <div class="linkMethod2">
-                    <i class="fa-brands fa-square-instagram"
-                       style="top: 50%;left: 50%; position: absolute; transform: translate(-50%, -50%);"></i>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-md">
-            <p style="font-weight: bolder; font-size: 25px">Useful Links</p>
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="contactUs_JiaweiLi.html">Contact</a>
-            <a class="nav-link" href="#">Shop Now</a>
-        </div>
-
-        <div class="col-md">
-            <p style="font-weight: bolder; font-size: 25px">Opening Hours</p>
-            <p>Mon-Fri: 8a.m to 9p.m</p>
-            <p>Sat-Sun: 10a.m to 10p.m</p>
-        </div>
-    </div>
-    <div></div>
-</footer>
-
-
+<?php include 'footer.php'; ?>
 <script>
     function validateEmail(){
         const pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -196,6 +126,3 @@
     }
 
 </script>
-
-</body>
-</html>
